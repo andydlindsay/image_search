@@ -4,9 +4,9 @@
 ## User Stories
 - [X] I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
 - [X] I can paginate through the responses by adding a ?offset=2 parameter to the URL.
-- [ ] I can get a list of the most recently submitted search strings.
+- [X] I can get a list of the most recently submitted search strings.
 
-### Image information provided by [provider](provider.com)
+### Image information provided by [Microsoft Azure/Bing](https://azure.microsoft.com/en-ca/services/cognitive-services/bing-image-search-api/)
 
 ### This project is running on [Heroku](https://andydlindsay-image-search.herokuapp.com)
 
