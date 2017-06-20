@@ -25,7 +25,7 @@ let dbURI = 'mongodb://' + process.env.DB_USER + ':' + process.env.DB_PASSWORD +
 
 // change database uri if testing
 if (config.util.getEnv('NODE_ENV') == 'test') {
-    dbURI = 'mongodb://localhost:27017/booktradingtest';
+    dbURI = 'mongodb://localhost:27017/imagesearchtest';
 }
 
 // connect to the database
