@@ -2,8 +2,10 @@ const express = require('express'),
       router = express.Router(),
       request = require('superagent');
 
-// latest images
+// latest search terms
+router.get('/latest/imagesearch', (req, res) => {
 
+});
 
 // imagesearch with query and optional offset
 router.get('/imagesearch/:query', (req, res) => {
