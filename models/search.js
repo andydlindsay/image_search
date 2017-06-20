@@ -21,7 +21,7 @@ module.exports.addSearch = function(newSearch, callback) {
 
 // get last 10 search terms
 module.exports.getSearches = function(callback) {
-    Search.find({})
+    Search.find({}, { '_id': 0, 'term': 1, 'when': 1 })
         .sort({ 'when': 'desc' })
         .limit(10)
         .exec(callback);
